@@ -2,6 +2,14 @@
 
 Device: Magcubic HY300 Pro Android Projector (ui_Veng.projector)
 Issue: Device was being used as a residential proxy node without consent, causing thousands of suspicious DNS requests and bandwidth usage.
+
+## TDLR
+package:com.hotack.silentsdk
+package:com.hotack.writesn
+
+the default launcher com.htc.htclauncherhighenglishd08 is also a malware (accessing to shortx.srafx.com which is a video shorts website and imasdk.googleapis.com), but to remove it you must first install an alternative Android TV launcher and create an app to launch the HDMI source which is com.softwinner.awlivetv.MainActivity
+
+
 ## 🚨 Symptoms
 
     Thousands of blocked DNS requests to app.appsflyer.com, *.onelink.me, iforgot.apple.com in Pi-hole
